@@ -15,11 +15,11 @@ Join me in developing the Hardware Library Repository. Let's find solutions to f
 ### Bugs and issues
 For library errors, please create an issue on GitHub as it makes it easier for me to track. If possible, provide a minimal code snippet to clearly show the error or problem. Add information about the platform used and version, etc.
 
-------------------------------- Installation instructions -------------------------------
+------------------------------------------------- Installation instructions -------------------------------------------------
 ```
 git clone https://github.com/NguyenHien-8/Hardware-Library.git
 ```
-### Windows
+### 1.Windows
 **The command automatically creates directories for all branches**
 - On PowerShell
 ```
@@ -30,15 +30,16 @@ git branch -r | % { $n = $_.Trim() -replace 'origin/'; if($n -notmatch 'HEAD'){ 
 for /f "tokens=1,* delims=/" %a in ('git branch -r ^| findstr /v "HEAD"') do git worktree add "%b" "origin/%b"
 ```
 
-### Linux
+### 2.Linux
 **The command automatically creates directories for all branches.**
 - On Bash
 ```
 git branch -r | grep -v 'HEAD' | cut -d/ -f2- | xargs -I{} git worktree add {} origin/{}
 ```
 
-### MacOS
+### 3.MacOS
 **The command automatically creates directories for all branches.**
+- On Zsh/Bash
 ```
 git branch -r | grep -v 'HEAD' | cut -d/ -f2- | xargs -I{} git worktree add {} origin/{}
 ```
