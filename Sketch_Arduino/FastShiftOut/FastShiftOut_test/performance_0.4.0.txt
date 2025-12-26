@@ -1,0 +1,83 @@
+IDE:   1.8.19
+Board: UNO
+
+loop unrolled version
+
+FASTSHIFTOUT_LIB_VERSION: 0.4.0
+
+Performance - time in us
+        write: 12.76
+        write: 24.27
+        Delta: 11.51
+
+writeLSBFIRST: 11.76
+writeLSBFIRST: 23.26
+        Delta: 11.50
+
+writeMSBFIRST: 11.76
+writeMSBFIRST: 23.27
+        Delta: 11.50
+
+Standard shiftOut1: 89.85
+Standard shiftOut2: 179.45
+             Delta: 89.60
+
+      write16: 24.14
+      write16: 48.04
+        Delta: 23.89
+
+      write24: 35.66
+      write24: 71.05
+        Delta: 35.40
+
+      write32: 47.16
+      write32: 94.06
+        Delta: 46.90
+
+
+Test print interface
+println("Hello world"): 	189.20
+println(1357): 			247.12
+println(3.14159265, 4): 	629.96
+
+
+done ...
+
+
+no loop unroll version
+
+Performance - time in us
+        write: 15.34
+        write: 29.43
+        Delta: 14.10
+
+writeLSBFIRST: 14.34
+writeLSBFIRST: 28.42
+        Delta: 14.09
+
+writeMSBFIRST: 14.34
+writeMSBFIRST: 28.42
+        Delta: 14.08
+
+Standard shiftOut1: 89.85
+Standard shiftOut2: 179.44
+             Delta: 89.60
+
+      write16: 29.31
+      write16: 58.35
+        Delta: 29.04
+
+      write24: 43.38
+      write24: 86.51
+        Delta: 43.13
+
+      write32: 57.47
+      write32: 114.68
+        Delta: 57.22
+
+
+Test print interface
+println("Hello world"): 	222.68
+println(1357): 			262.60
+println(3.14159265, 4): 	650.68
+
