@@ -15,7 +15,7 @@ Join me in developing the Hardware Library Repository. Let's find solutions to f
 ### Bugs and issues
 For library errors, please create an issue on GitHub as it makes it easier for me to track. If possible, provide a minimal code snippet to clearly show the error or problem. Add information about the platform used and version, etc.
 
-------------------------------------------------- Installation instructions -------------------------------------------------
+------------------------------------------------- Installation instructions --------------------------------------------------
 ```
 git clone https://github.com/NguyenHien-8/Hardware-Library.git
 ```
