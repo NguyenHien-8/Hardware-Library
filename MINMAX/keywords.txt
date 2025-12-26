@@ -1,0 +1,36 @@
+# Syntax Colouring Map For MINMAX
+
+# Data types (KEYWORD1)
+MINMAX	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+add	KEYWORD2
+reset	KEYWORD2
+setResetDefaults	KEYWORD2
+
+addCallBack	KEYWORD2
+
+setAutoResetCount	KEYWORD2
+getAutoResetCount	KEYWORD2
+
+lastValue	KEYWORD2
+count	KEYWORD2
+
+minimum	KEYWORD2
+maximum	KEYWORD2
+
+lastMin	KEYWORD2
+lastMax	KEYWORD2
+
+setDampening	KEYWORD2
+getDampening	KEYWORD2
+
+
+# Constants (LITERAL1)
+MINMAX_LIB_VERSION	LITERAL1
+
+MINMAX_NO_CHANGE	LITERAL1
+MINMAX_MIN_CHANGED	LITERAL1
+MINMAX_MAX_CHANGED	LITERAL1
+MINMAX_RESET_DONE	LITERAL1
+

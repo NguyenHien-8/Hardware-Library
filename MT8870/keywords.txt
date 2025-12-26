@@ -1,0 +1,19 @@
+# Syntax Colouring Map For MT8870
+
+# Data types (KEYWORD1)
+MT8870	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+available	KEYWORD2
+
+read	KEYWORD2
+readRaw	KEYWORD2
+lastRaw	KEYWORD2
+lastTimeRead	KEYWORD2
+
+
+# Constants (LITERAL1)
+MT8870_LIB_VERSION	LITERAL1
+

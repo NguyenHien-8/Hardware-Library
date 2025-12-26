@@ -1,0 +1,23 @@
+{
+  "name": "fast_math",
+  "keywords": "divmod10,bcd2dec,dec2bcd,ping,log10,log2,log",
+  "description": "Arduino library for fast math algorithms.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/fast_math.git"
+  },
+  "version": "0.2.4",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "fast_math.h"
+}

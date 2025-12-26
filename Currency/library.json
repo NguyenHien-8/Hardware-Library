@@ -1,0 +1,23 @@
+{
+  "name": "currency",
+  "keywords": "currency, bitcoin, dollar, euro, roubles, yen, yuan",
+  "description": "Arduino library to help formatting integers as currency e.g. $ 1.234,56.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/currency"
+  },
+  "version": "0.2.0",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "currency.h"
+}

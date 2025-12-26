@@ -1,0 +1,23 @@
+{
+  "name": "Troolean",
+  "keywords": "Troolean,numbers",
+  "description": "Arduino Library for a three state logic data type supporting {true false unknown}",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/Troolean.git"
+  },
+  "version": "0.1.9",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "Troolean.h"
+}

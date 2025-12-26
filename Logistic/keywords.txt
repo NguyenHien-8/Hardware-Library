@@ -1,0 +1,23 @@
+# Syntax Colouring Map For Logistic
+
+# Data types (KEYWORD1)
+Logistic	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+setRate	KEYWORD2
+getRate	KEYWORD2
+
+iterate	KEYWORD2
+
+setCount	KEYWORD2
+getCount	KEYWORD2
+
+getDelta	KEYWORD2
+getPrevious	KEYWORD2
+isStable	KEYWORD2
+
+
+# Constants (LITERAL1)
+LOGISTIC_LIB_VERSION	LITERAL1
+

@@ -1,0 +1,28 @@
+# Syntax Colouring Map For MATRIX7219
+
+# Data types (KEYWORD1)
+MATRIX7219	KEYWORD1
+MATRIX7221	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+getMatrixCount	KEYWORD2
+setBrightness	KEYWORD2
+displayOff	KEYWORD2
+displayOn	KEYWORD2
+displayTest	KEYWORD2
+
+clear	KEYWORD2
+setRow	KEYWORD2
+
+setInvert	KEYWORD2
+getInvert	KEYWORD2
+setReverse	KEYWORD2
+getReverse	KEYWORD2
+setSwap	KEYWORD2
+getSwap	KEYWORD2
+
+
+# Constants (LITERAL1)
+MATRIX7219_LIB_VERSION	LITERAL1

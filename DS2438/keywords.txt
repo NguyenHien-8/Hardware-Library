@@ -1,0 +1,56 @@
+# Syntax Colouring Map For DS2438
+
+# Data types (KEYWORD1)
+DS2438	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+isConnected	KEYWORD2
+
+readTemperature	KEYWORD2
+getTemperature	KEYWORD2
+
+readVDD	KEYWORD2
+getVDD	KEYWORD2
+readVAD	KEYWORD2
+getVAD	KEYWORD2
+
+setResistor	KEYWORD2
+enableCurrentMeasurement	KEYWORD2
+disableCurrentMeasurement	KEYWORD2
+readCurrent	KEYWORD2
+getCurrent	KEYWORD2
+
+writeCurrentOffset	KEYWORD2
+readCurrentOffset	KEYWORD2
+
+readRemaining	KEYWORD2
+writeThreshold	KEYWORD2
+readThreshold	KEYWORD2
+
+writeElapsedTimeMeter	KEYWORD2
+readElapsedTimeMeter	KEYWORD2
+readDisconnectTime	KEYWORD2
+readEndOfChargeTime	KEYWORD2
+
+writeEEPROM	KEYWORD2
+readEEPROM	KEYWORD2
+
+enableCCA	KEYWORD2
+disableCCA	KEYWORD2
+readCCA	KEYWORD2
+readDCA	KEYWORD2
+
+
+setConfigBit	KEYWORD2
+clearConfigBit	KEYWORD2
+getConfigRegister	KEYWORD2
+
+
+# Constants (LITERAL1)
+DS2438_LIB_VERSION	LITERAL1
+
+DS2438_INVALID	LITERAL1
+
+

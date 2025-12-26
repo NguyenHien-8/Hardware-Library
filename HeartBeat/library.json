@@ -1,0 +1,23 @@
+{
+  "name": "HeartBeat",
+  "keywords": "HeartBeat, blinking led, polling",
+  "description": "Arduino library for HeartBeat with frequency and duty cycle.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/HeartBeat.git"
+  },
+  "version": "0.3.7",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "Heart_Beat.h"
+}

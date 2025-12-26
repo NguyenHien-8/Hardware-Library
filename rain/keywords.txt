@@ -1,0 +1,29 @@
+# Syntax Colouring Map For RAIN
+
+# Data types (KEYWORD1)
+RAIN	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+raw	KEYWORD2
+read	KEYWORD2
+
+setDryReference	KEYWORD2
+getDryReference	KEYWORD2
+
+percentage	KEYWORD2
+delta	KEYWORD2
+
+setLevel	KEYWORD2
+getLevel	KEYWORD2
+
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+setPowerDelay	KEYWORD2
+getPowerDelay	KEYWORD2
+
+
+# Constants (LITERAL1)
+RAIN_LIB_VERSION	LITERAL1
+
+

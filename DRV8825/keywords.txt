@@ -1,0 +1,38 @@
+# Syntax Colouring Map For DRV8825
+
+
+# Data types (KEYWORD1)
+DRV8825	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+
+setDirection	KEYWORD2
+getDirection	KEYWORD2
+
+setStepsPerRotation	KEYWORD2
+getStepsPerRotation	KEYWORD2
+step	KEYWORD2
+resetSteps	KEYWORD2
+getSteps	KEYWORD2
+
+setStepPulseLength	KEYWORD2
+getStepPulseLength	KEYWORD2
+
+enable	KEYWORD2
+disable	KEYWORD2
+isEnabled	KEYWORD2
+reset	KEYWORD2
+
+sleep	KEYWORD2
+wakeup	KEYWORD2
+isSleeping	KEYWORD2
+
+
+# Constants (LITERAL1)
+DRV8825_LIB_VERSION	LITERAL1
+
+DRV8825_CLOCK_WISE	LITERAL1
+DRV8825_COUNTERCLOCK_WISE	LITERAL1
+

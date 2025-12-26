@@ -1,0 +1,22 @@
+# Syntax Colouring Map For moduloMap
+
+# Data types (KEYWORD1)
+moduloMap	KEYWORD1
+MODMAP	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+
+getMinimum	KEYWORD2
+getMaximum	KEYWORD2
+getRange	KEYWORD2
+
+map	KEYWORD2
+rotations	KEYWORD2
+
+
+# Constants (LITERAL1)
+MODMAP_LIB_VERSION	LITERAL1
+
+

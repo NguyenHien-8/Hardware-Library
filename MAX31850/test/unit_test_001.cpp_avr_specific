@@ -1,0 +1,110 @@
+//
+//    FILE: unit_test_001.cpp
+//  AUTHOR: Rob Tillaart
+//    DATE: 2021-06-03
+// PURPOSE: unit tests for the MAX31850 library
+//          https://github.com/RobTillaart/MAX31850
+//          https://github.com/Arduino-CI/arduino_ci/blob/master/REFERENCE.md
+//
+
+// supported assertions
+// https://github.com/Arduino-CI/arduino_ci/blob/master/cpp/unittest/Assertion.h#L33-L42
+// ----------------------------
+// assertEqual(expected, actual)
+// assertNotEqual(expected, actual)
+// assertLess(expected, actual)
+// assertMore(expected, actual)
+// assertLessOrEqual(expected, actual)
+// assertMoreOrEqual(expected, actual)
+// assertTrue(actual)
+// assertFalse(actual)
+// assertNull(actual)
+// assertNotNull(actual)
+
+#include <ArduinoUnitTests.h>
+
+
+#include "Arduino.h"
+#include "MAX31850.h"
+
+
+
+unittest_setup()
+{
+  fprintf(stderr, "MAX31850_LIB_VERSION: %s\n", (char*) MAX31850_LIB_VERSION);
+}
+
+
+unittest_teardown()
+{
+}
+
+
+unittest(test_constants)
+{
+  assertEqual(0, MAX31850_OK);  
+  assertEqual(1, MAX31850_ERR_SHORT_OPEN);
+  assertEqual(2, MAX31850_ERR_SHORT_GND);
+  assertEqual(4, MAX31850_ERR_SHORT_VDD);
+}
+
+
+unittest(test_constructor)
+{
+  OneWire oneWire(4);
+  MAX31850 sensor(&oneWire);
+
+  sensor.begin();
+  assertEqual(1,1);
+
+}
+
+
+unittest(test_setTypeTC)
+{
+  OneWire oneWire(4);
+  MAX31850 sensor(&oneWire);
+
+  sensor.begin();
+
+  //  default = K
+  assertEqual('K', sensor.getTypeTC());
+
+  assertTrue(sensor.setTypeTC('E'));
+  assertEqual('E', sensor.getTypeTC());
+  
+  assertTrue(sensor.setTypeTC('J'));
+  assertEqual('J', sensor.getTypeTC());
+
+  assertTrue(sensor.setTypeTC('K'));
+  assertEqual('K', sensor.getTypeTC());
+
+  assertTrue(sensor.setTypeTC('N'));
+  assertEqual('N', sensor.getTypeTC());
+
+  assertTrue(sensor.setTypeTC('R'));
+  assertEqual('R', sensor.getTypeTC());
+
+  assertTrue(sensor.setTypeTC('S'));
+  assertEqual('S', sensor.getTypeTC());
+
+  assertTrue(sensor.setTypeTC('T'));
+  assertEqual('T', sensor.getTypeTC());
+
+  //  set default
+  assertTrue(sensor.setTypeTC());
+  assertEqual('K', sensor.getTypeTC());
+
+  //  lower case ?
+
+  //  failing chars.
+  assertFalse(sensor.setTypeTC('a'));
+
+}
+
+
+unittest_main()
+
+
+//  -- END OF FILE --
+

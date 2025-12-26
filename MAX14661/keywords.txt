@@ -1,0 +1,56 @@
+# Syntax Colouring Map for MAX14661
+
+
+# Data types (KEYWORD1)
+MAX14661	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+isConnected	KEYWORD2
+
+connectPair	KEYWORD2
+disconnectPair	KEYWORD2
+isConnectedPair	KEYWORD2
+disconnectAllPairs	KEYWORD2
+
+shadowClear	KEYWORD2
+activateShadow	KEYWORD2
+
+setShadowChannelMaskA	KEYWORD2
+getShadowChannelMaskA	KEYWORD2
+setShadowChannelMaskB	KEYWORD2
+getShadowChannelMaskB	KEYWORD2
+
+openShadowChannelA	KEYWORD2
+closeShadowChannelA	KEYWORD2
+isOpenShadowChannelA	KEYWORD2
+
+openShadowChannelB	KEYWORD2
+closeShadowChannelB	KEYWORD2
+isOpenShadowChannelB	KEYWORD2
+
+MUXA	KEYWORD2
+getMUXA	KEYWORD2
+MUXB	KEYWORD2
+getMUXB	KEYWORD2
+
+connectA	KEYWORD2
+connectB	KEYWORD2
+disconnectA	KEYWORD2
+disconnectB	KEYWORD2
+
+readRegister	KEYWORD2
+writeRegister	KEYWORD2
+lastError	KEYWORD2
+
+
+# Constants (	LITERAL1)
+MAX14661_LIB_VERSION	LITERAL1
+
+MAX14661_OK	LITERAL1
+MAX14661_ERR_I2C_READ	LITERAL1
+MAX14661_ERR_I2C_REQUEST	LITERAL1
+MAX14661_ERR_CHANNEL	LITERAL1
+MAX14661_ERR_ADDRESS	LITERAL1
+

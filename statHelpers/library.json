@@ -1,0 +1,23 @@
+{
+  "name": "statHelpers",
+  "keywords": "permutation, next permutation, nth permutation, combination, factorial, n over k, n out of k",
+  "description": "Arduino library with a number of statistic helper functions. Experimental big numbers.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/statHelpers.git"
+  },
+  "version": "0.2.1",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "statHelpers.h"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MTP40C",
+  "keywords": "MTP40, MTP40C, MTP40D, CO2, serial",
+  "description": "Arduino library for MTP40, MTP40C + MTP40D CO2 sensor",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/MTP40C.git"
+  },
+  "version": "0.3.2",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "MTP40C.h"
+}

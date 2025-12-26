@@ -1,0 +1,26 @@
+{
+  "name": "DHT2pin",
+  "keywords": "DHT11,DHT22,DHT33,DHT44,AM2301,AM2302,AM2303",
+  "description": "Experimental version of the DHT library, using 2 data pins instead of 1.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    },
+    {
+      "name": "Maria Emanuella Moura Silva"
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/DHT2pin"
+  },
+  "version": "0.2.2",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "DHT2pin.h"
+}

@@ -1,0 +1,38 @@
+# Syntax Colouring Map For TLC5947
+
+
+# Data types (KEYWORD1)
+TLC5947	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+getChannels	KEYWORD2
+
+setPWM	KEYWORD2
+getPWM	KEYWORD2
+setAll	KEYWORD2
+
+setPercentage	KEYWORD2
+getPercentage	KEYWORD2
+setPercentageAll	KEYWORD2
+
+write	KEYWORD2
+
+enable	KEYWORD2
+disable	KEYWORD2
+isEnabled	KEYWORD2
+
+setRGB	KEYWORD2
+getRGB	KEYWORD2
+
+
+# Instances (KEYWORD2)
+
+
+# Constants (LITERAL1)
+TLC5947_LIB_VERSION	LITERAL1
+
+TLC5947_OK	LITERAL1
+TLC5947_CHANNEL_ERROR	LITERAL1
+

@@ -1,0 +1,48 @@
+# Syntax Colouring Map For AD985X
+
+# Data types (KEYWORD1)
+AD9850	KEYWORD1
+AD9851	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+reset	KEYWORD2
+powerDown	KEYWORD2
+powerUp	KEYWORD2
+
+setFrequencyF	KEYWORD2
+setFrequency	KEYWORD2
+getFrequency	KEYWORD2
+setPhase	KEYWORD2
+getPhase	KEYWORD2
+
+setRefClockHigh	KEYWORD2
+setRefClockLow	KEYWORD2
+getRefClock	KEYWORD2
+setAutoRefClock	KEYWORD2
+getAutoRefClock	KEYWORD2
+setARCCutOffFreq	KEYWORD2
+getARCCutOffFreq	KEYWORD2
+
+setCalibration	KEYWORD2
+getCalibration	KEYWORD2
+getFactor	KEYWORD2
+setAutoUpdate	KEYWORD2
+getAutoUpdate	KEYWORD2
+update	KEYWORD2
+
+setSPIspeed	KEYWORD2
+getSPIspeed	KEYWORD2
+usesHWSPI	KEYWORD2
+
+selectHSPI	KEYWORD2
+selectVSPI	KEYWORD2
+usesHSPI	KEYWORD2
+usesVSPI	KEYWORD2
+setGPIOpins	KEYWORD2
+
+
+# Constants (LITERAL1)
+AD9850_MAX_FREQ	LITERAL1
+AD9851_MAX_FREQ	LITERAL1

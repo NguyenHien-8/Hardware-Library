@@ -1,0 +1,29 @@
+# Syntax Colouring Map For ADC081S
+
+# Data types (KEYWORD1)
+ADC081S	KEYWORD1
+ADC101S	KEYWORD1
+ADC121S	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+maxValue	KEYWORD2
+
+read	KEYWORD2
+
+setSPIspeed	KEYWORD2
+getSPIspeed	KEYWORD2
+usesHWSPI	KEYWORD2
+
+count	KEYWORD2
+
+lowPower	KEYWORD2
+wakeUp	KEYWORD2
+isLowPower	KEYWORD2
+
+
+# Constants (LITERAL1)
+ADC081S_LIB_VERSION	LITERAL1
+
+

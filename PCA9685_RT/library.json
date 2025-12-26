@@ -1,0 +1,23 @@
+{
+  "name": "PCA9685",
+  "keywords": "I2C,PCA9685,PWM,16channel",
+  "description": "Arduino library for PCA9685 I2C LED driver, 16 channel PWM, 12 bit.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/PCA9685_RT.git"
+  },
+  "version": "0.7.3",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "PCA9685.h"
+}

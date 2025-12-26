@@ -1,0 +1,79 @@
+# Syntax Colouring Map For ANSI
+
+
+# Data types (KEYWORD1)
+ANSI	KEYWORD1
+VT100	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+normal	KEYWORD2
+bold	KEYWORD2
+low	KEYWORD2
+underline	KEYWORD2
+blink	KEYWORD2
+blinkFast	KEYWORD2
+reverse	KEYWORD2
+
+clearScreen	KEYWORD2
+clearLine	KEYWORD2
+home	KEYWORD2
+gotoXY	KEYWORD2
+
+cursorUp	KEYWORD2
+cursorDown	KEYWORD2
+cursorForward	KEYWORD2
+cursorBack 	KEYWORD2
+cursorShow 	KEYWORD2
+cursorHide 	KEYWORD2
+
+foreground	KEYWORD2
+background	KEYWORD2
+
+color	KEYWORD2
+gray2color	KEYWORD2
+grey2color	KEYWORD2
+rgb2color	KEYWORD2
+
+
+#################################
+# EXPERIMENTAL
+
+deviceType	KEYWORD2
+
+readCursorPosition	KEYWORD2
+getScreenSize	KEYWORD2
+screenWidth	KEYWORD2
+screenHeight	KEYWORD2
+
+set132columns	KEYWORD2
+set80columns	KEYWORD2
+moveWindowDown	KEYWORD2
+moveWindowUp	KEYWORD2
+
+printScreen	KEYWORD2
+setPrintingMode	KEYWORD2
+
+reset	KEYWORD2
+
+setSmoothScroll	KEYWORD2
+setJumpScroll	KEYWORD2
+printLine	KEYWORD2
+
+invisible	KEYWORD2
+strikeThrough	KEYWORD2
+
+setRGBforeground	KEYWORD2
+setRGBbackground	KEYWORD2
+
+
+# Constants (LITERAL1)
+ANSI_LIB_VERSION	LITERAL1
+
+VT100	LITERAL1
+VT52	LITERAL1
+VT220	LITERAL1
+
+toEnd	LITERAL1
+toStart	LITERAL1
+entireLine	LITERAL1

@@ -1,0 +1,20 @@
+# Syntax Colouring Map for timing
+
+
+# Data types (KEYWORD1)
+microSeconds	KEYWORD1
+milliSeconds	KEYWORD1
+seconds	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+now	KEYWORD2
+set	KEYWORD2
+add	KEYWORD2
+getOffset	KEYWORD2
+toSeconds	KEYWORD2
+
+# toClock	KEYWORD2
+
+# Constants (LITERAL1)
+TIMING_LIB_VERSION	LITERAL1

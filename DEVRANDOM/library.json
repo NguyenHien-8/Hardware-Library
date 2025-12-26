@@ -1,0 +1,23 @@
+{
+  "name": "DEVRANDOM",
+  "keywords": "DEVRANDOM,random",
+  "description": "Arduino library to wrap a random generator in a stream.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/DEVRANDOM.git"
+  },
+  "version": "0.2.3",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "DEVRANDOM.h"
+}

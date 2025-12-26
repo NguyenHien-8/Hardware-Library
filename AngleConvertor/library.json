@@ -1,0 +1,23 @@
+{
+  "name": "AngleConvertor",
+  "keywords": "Angle,convert,degrees,radians,windrose",
+  "description": "Library to convert between different less known angle formats.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/AngleConvertor.git"
+  },
+  "version": "0.2.2",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "AngleConvertor.h"
+}

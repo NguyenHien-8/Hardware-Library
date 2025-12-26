@@ -1,0 +1,56 @@
+# Syntax Colouring Map For MTP40C
+
+# Data types (KEYWORD1)
+MTP40	KEYWORD1
+MTP40C	KEYWORD1
+MTP40D	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+setStream	KEYWORD2
+begin	KEYWORD2
+isConnected	KEYWORD2
+
+getAddress	KEYWORD2
+setAddress	KEYWORD2
+
+getAirPressureReference	KEYWORD2
+setAirPressureReference	KEYWORD2
+
+getGasConcentration	KEYWORD2
+
+suppressError	KEYWORD2
+getSuppressError	KEYWORD2
+
+setSinglePointCorrection	KEYWORD2
+getSinglePointCorrectionReady	KEYWORD2
+
+openSelfCalibration	KEYWORD2
+closeSelfCalibration	KEYWORD2
+getSelfCalibrationStatus	KEYWORD2
+setSelfCalibrationHours	KEYWORD2
+getSelfCalibrationHours	KEYWORD2
+
+setGenericAddress	KEYWORD2
+setSpecificAddress	KEYWORD2
+useSpecificAddress	KEYWORD2
+
+setTimeout	KEYWORD2
+getTimeout	KEYWORD2
+
+lastRead	KEYWORD2
+
+getType	KEYWORD2
+lastError	KEYWORD2
+
+
+# Constants (LITERAL1)
+MTP40_LIB_VERSION	LITERAL1
+
+MTP40_OK	LITERAL1
+MTP40_DEFAULT_ADDRESS	LITERAL1
+MTP40_INVALID_AIR_PRESSURE	LITERAL1
+MTP40_INVALID_GAS_LEVEL	LITERAL1
+MTP40_INVALID_ADDRESS	LITERAL1
+
+

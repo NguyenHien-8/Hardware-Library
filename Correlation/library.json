@@ -1,0 +1,23 @@
+{
+  "name": "Correlation",
+  "keywords": "Linear Correlation",
+  "description": "Arduino Library to determine correlation between X and Y dataset",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/Correlation.git"
+  },
+  "version": "0.3.3",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "Correlation.h"
+}

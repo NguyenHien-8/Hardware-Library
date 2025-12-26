@@ -1,0 +1,23 @@
+{
+  "name": "A1301",
+  "keywords": "A1301,A1302,A1324,A1325,A1326, magnetic, HALL",
+  "description": "Arduino library for A1301, A1302, A1324, A1325, A1326 magnetometer.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/A1301.git"
+  },
+  "version": "0.3.0",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "A1301.h"
+}

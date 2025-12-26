@@ -1,0 +1,28 @@
+# Syntax Colouring Map For ML8511
+
+# Data types (KEYWORD1)
+ML8511	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+reset	KEYWORD2
+
+getUV	KEYWORD2
+voltage2mW	KEYWORD2
+
+setVoltsPerStep	KEYWORD2
+getVoltsPerStep	KEYWORD2
+
+enable	KEYWORD2
+disable	KEYWORD2
+isEnabled	KEYWORD2
+
+estimateDUVindex	KEYWORD2
+setDUVfactor	KEYWORD2
+getDUVfactor	KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
+ML8511_LIB_VERSION	LITERAL1
+

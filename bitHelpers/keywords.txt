@@ -1,0 +1,40 @@
+# Syntax Colouring Map For bitHelpers
+
+# Data types (KEYWORD1)
+
+
+# Methods and Functions (KEYWORD2)
+bitCountReference	KEYWORD2
+bitCountKR	KEYWORD2
+bitCountArray	KEYWORD2
+bitCountF1	KEYWORD2
+bitCountF2	KEYWORD2
+bitCount	KEYWORD2
+
+bitReverse	KEYWORD2
+nybbleReverse	KEYWORD2
+byteReverse	KEYWORD2
+wordReverse	KEYWORD2
+
+swap	KEYWORD2
+bitRotateLeft	KEYWORD2
+bitRotateRight	KEYWORD2
+
+bitFlip	KEYWORD2
+bitRotRef	KEYWORD2
+bitRot	KEYWORD2
+
+bitSet64	KEYWORD2
+bitClear64	KEYWORD2
+bitToggle64	KEYWORD2
+bitRead64	KEYWORD2
+bitWrite64	KEYWORD2
+
+bitsNeededRef	KEYWORD2
+bitsNeeded	KEYWORD2
+
+
+# Constants (LITERAL1)
+BITHELPER_LIB_VERSION	LITERAL1
+
+

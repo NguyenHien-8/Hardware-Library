@@ -1,0 +1,50 @@
+//
+//    FILE: MCP4261_demo_tcon.ino
+//  AUTHOR: Rob Tillaart
+// PURPOSE: demo
+//     URL: https://github.com/RobTillaart/MCP4261
+//
+//  needs investigation
+
+#include "MCP4261.h"
+
+
+//  select, shutdown, dataIn, dataOut, clock == SOFTWARE SPI
+//  MCP4261 pot(10, 6, 7, 8, 9);
+
+//  select, shutdown, &SPI === HW SPI UNO clock = 13, dataOut = 11
+MCP4261 pot(10, 6, &SPI);
+
+
+void setup()
+{
+  Serial.begin(115200);
+  Serial.println();
+  Serial.println(__FILE__);
+  Serial.print("MCP4261_LIB_VERSION: ");
+  Serial.println(MCP4261_LIB_VERSION);
+  Serial.println();
+
+  SPI.begin();
+
+  pot.begin();
+  pot.setValue(123);
+
+  int status = pot.getStatusMask();
+  Serial.println(status);
+
+  int tcon = pot.getTCONMask();
+  Serial.println(tcon, BIN);  //  bit 8 always 1
+
+  // ???  TODO
+
+  Serial.println("\nDone...");
+}
+
+
+void loop()
+{
+}
+
+
+//  -- END OF FILE --

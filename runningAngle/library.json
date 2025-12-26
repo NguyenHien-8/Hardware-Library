@@ -1,0 +1,23 @@
+{
+  "name": "runningAngle",
+  "keywords": "Angle, running average, wrap, RADIANS, DEGREES, GRADIANS, heading",
+  "description": "Library to average angles by means of low pass filtering with wrapping.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/runningAngle.git"
+  },
+  "version": "0.2.2",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "runningAngle.h"
+}

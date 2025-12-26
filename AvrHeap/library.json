@@ -1,0 +1,23 @@
+{
+  "name": "Avrheap",
+  "keywords": "heap,dump,walk,free,list,debug,analyze",
+  "description": "Library to runtime analyse the structure of the heap (AVR 328).\n Note:not a beginners library",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/avrheap.git"
+  },
+  "version": "0.2.8",
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "avr",
+  "headers": "avrheap.h"
+}

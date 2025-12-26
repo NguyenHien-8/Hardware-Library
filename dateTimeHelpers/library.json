@@ -1,0 +1,23 @@
+{
+  "name": "dateTimeHelpers",
+  "keywords": "",
+  "description": "Arduino library with date time helper functions.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/dateTimeHelpers.git"
+  },
+  "version":"0.1.4",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "dateTimeHelpers.h"
+}

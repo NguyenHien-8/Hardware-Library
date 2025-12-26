@@ -1,0 +1,51 @@
+# Syntax Colouring Map For A1301
+
+# Data types (KEYWORD1)
+HALL	KEYWORD1
+A1301	KEYWORD1
+A1302	KEYWORD1
+A1324	KEYWORD1
+A1325	KEYWORD1
+A1326	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+
+setMidPoint	KEYWORD2
+autoMidPoint	KEYWORD2
+getMidPoint	KEYWORD2
+
+setSensitivity	KEYWORD2
+getSensitivity	KEYWORD2
+
+raw	KEYWORD2
+read	KEYWORD2
+readExternal	KEYWORD2
+
+isNull	KEYWORD2
+isNorth	KEYWORD2
+isSouth	KEYWORD2
+isRising	KEYWORD2
+isFalling	KEYWORD2
+
+lastGauss	KEYWORD2
+prevGauss	KEYWORD2
+deltaGauss	KEYWORD2
+determineNoise	KEYWORD2
+angle	KEYWORD2
+
+Tesla	KEYWORD2
+milliTesla	KEYWORD2
+microTesla	KEYWORD2
+
+setMaxGauss	KEYWORD2
+getMaxGauss	KEYWORD2
+isSaturated	KEYWORD2
+saturationLevel	KEYWORD2
+
+
+# Constants (LITERAL1)
+A1301_LIB_VERSION	LITERAL1
+
+

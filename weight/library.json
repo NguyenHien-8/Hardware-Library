@@ -1,0 +1,23 @@
+{
+  "name": "weight",
+  "keywords": "weight,conversion,kilo,gram,stone,lbs,ounce,pound",
+  "description": "Library of weight conversion functions",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/weight.git"
+  },
+  "version": "0.3.2",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "weight.h"
+}

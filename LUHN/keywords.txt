@@ -1,0 +1,20 @@
+# Syntax Colouring Map For LUHN
+
+# Data types (KEYWORD1)
+LUHN	KEYWORD1
+
+
+# Methods and Functions (KEYWORD2)
+isValid	KEYWORD2
+generateChecksum	KEYWORD2
+
+randomize	KEYWORD2
+generate	KEYWORD2
+
+add	KEYWORD2
+reset	KEYWORD2
+count	KEYWORD2
+
+# Constants (LITERAL1)
+LUHN_LIB_VERSION	LITERAL1
+

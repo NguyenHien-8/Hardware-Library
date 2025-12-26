@@ -1,0 +1,23 @@
+{
+  "name": "AverageAngle",
+  "keywords": "Angle,average,RADIANS,DEGREES,GRADIANS,heading",
+  "description": "Arduino library to calculate correctly the average of multiple angles.",
+  "authors":
+  [
+    {
+      "name": "Rob Tillaart",
+      "email": "Rob.Tillaart@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RobTillaart/AverageAngle.git"
+  },
+  "version": "0.2.3",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "AverageAngle.h"
+}
