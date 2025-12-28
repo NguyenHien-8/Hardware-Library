@@ -1,3 +1,0 @@
-
-
-https://learn.adafruit.com/adafruit-data-logger-shield/using-the-sd-card
