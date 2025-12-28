@@ -1,3 +1,0 @@
-
-different versions are also tested with different IDE so the comparisons are 
-indicative at best.
